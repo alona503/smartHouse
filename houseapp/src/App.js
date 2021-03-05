@@ -1,7 +1,7 @@
 import "./App.css";
 import React from "react";
 import AddRoom from "./Components/AddRoom";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import { useState } from "react";
 import HomeScreen from "./Components/HomeScreen";
 import Room from "./Components/Room";
